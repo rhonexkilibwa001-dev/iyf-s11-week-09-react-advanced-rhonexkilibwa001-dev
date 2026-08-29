@@ -1,0 +1,14 @@
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 20px;
+  background:#0b5cff;
+  color:white;
+}
+
+.brand a{ color: white; text-decoration:none; font-weight:700 }
+
+nav a{ color: rgba(255,255,255,0.9); margin-left:12px; text-decoration:none }
+
+.active{ text-decoration:underline }
