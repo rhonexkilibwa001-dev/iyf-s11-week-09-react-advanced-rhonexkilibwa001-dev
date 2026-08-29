@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Posts from './pages/Posts'
 import PostDetail from './pages/PostDetail'
 import About from './pages/About'
+import Exercises from './pages/Exercises'
 import Header from './components/Header'
 import styles from './styles/App.module.css'
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/posts" element={<Posts />} />
           <Route path="/posts/:id" element={<PostDetail />} />
+          <Route path="/exercises" element={<Exercises />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<div style={{padding:20}}>Page not found</div>} />
         </Routes>
